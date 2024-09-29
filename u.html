@@ -1,0 +1,33 @@
+
+<html>
+<head>
+	<title>u</title>
+
+	<!-- icon-->
+    <link rel="shortcut icon" href="img_bollywood/webicon.png" type="image/x-icon">
+
+	<!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body background="img_bollywood/last.jpg">
+	<div class="main">
+	<div class="wrap">
+	<div class="profile">
+
+<img id="profilepic" src="data:image/jpeg;base64,'.base64_encode($row['profile']).'"/>	
+			<div class="info">
+					<b><h1>'.$row["username"].'</b></h1>
+					<hr size="5" class="hrcricket">
+				
+					<h3>Name- <b>'.$row["name"].'</b></h3>
+					<h3><b><textarea readonly="readonly" style="border: 0" rows="7" col="20"></textarea></b></h3>
+					<h3><b><textarea readonly="readonly" style="border: 0" rows="7" col="20"></textarea></b></h3>
+					<h3>Mob.No- <b>'.$row["mob"].'</b></h3>
+					<h3>Email- <b>'.$row["email"].'</b></h3>
+			</div> 
+
+	
+</body>
+</html>
